@@ -1,13 +1,13 @@
-## 🚕 NYC Taxi Congestion Surcharge Optimization
+## NYC Taxi Congestion Surcharge Optimization
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression, and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
 
 ---
 
-## 🔍 Problem
+## Problem
 Exploratory analysis of 3M+ taxi trips revealed that congestion surcharges were applied inconsistently. 
 - 70%+ of surcharges were concentrated in Manhattan
 - Mostly occurred during weekday business hours
@@ -17,24 +17,24 @@ This indicated that the de-facto surcharge system differed from the intended pol
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
-1️⃣ Data-Driven Policy Analysis
+1. Data-Driven Policy Analysis
 - Built classification models (Logistic Regression, Random Forest) to identify surcharge triggers.
 - Trained on 3M+ taxi trip records.
 - Achieved ROC-AUC: 0.91.
 - Applied SHAP for explainability.
 
-🔎 Key Insight:
+Key Insight:
 Pickup time and location were the strongest drivers of surcharge application.
 
-2️⃣ Revenue & Equity Modeling
+2. Revenue & Equity Modeling
 - Implemented Ridge Regression models to estimate:
   - Revenue impact
   - Distributional fairness
 - Provided a quantitative baseline for evaluating policy alternatives.
 
-3️⃣ Strategic Scenario Simulation
+3. Strategic Scenario Simulation
 - Designed simulations to test alternative policies:
   - Peak-hour pricing adjustments
   - Zone-based exceptions
@@ -44,7 +44,7 @@ Pickup time and location were the strongest drivers of surcharge application.
   - Revenue performance
   - Equity distribution across zones
 
-4️⃣ Reusable Policy Simulation Framework
+4. Reusable Policy Simulation Framework
 - Developed a modular Python framework enabling rapid policy experimentation.
 
 - Framework modules:
@@ -57,13 +57,13 @@ This allows analysts to test multiple urban mobility pricing strategies efficien
 
 ---
 
-📊 Analysis Visualization
+Analysis Visualization
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/d32d0e31-fcde-44bb-8767-2700cf018479" width="700"> </p>
 
 ---
 
-## 📈 Results: 
+## Results: 
 
 1. Revenue Growth
 Optimized pricing increased total revenue by +0.9%.
@@ -83,9 +83,9 @@ Delivered a reusable analytical framework capable of turning mobility data into 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### 🐍 Python
+### Python
 
 | Category | Tools |
 |----------|------|
@@ -96,7 +96,7 @@ Delivered a reusable analytical framework capable of turning mobility data into 
 
 ---
 
-## 🚀 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - Machine Learning Modeling
 - Explainable AI (XAI)
