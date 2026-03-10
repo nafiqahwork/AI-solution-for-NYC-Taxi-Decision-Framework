@@ -60,6 +60,7 @@ This allows analysts to test multiple urban mobility pricing strategies efficien
 Analysis Visualization
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/d32d0e31-fcde-44bb-8767-2700cf018479" width="700"> </p>
+<p align="center"> Figure 01: SHAP Feature Importance for Surcharge Prediction (Classifier Model) </p>
 
 ---
 
@@ -80,7 +81,7 @@ Delivered a reusable analytical framework capable of turning mobility data into 
 ---
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" width="600"> </p>
-
+<p align="center"> Figure 02: Modeled Revenue Trend: Before vs. After Optimization </p>
 ---
 
 ## Tech Stack
