@@ -1,4 +1,4 @@
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" />Problem
+Problem
 - Exploratory analysis of over 3M taxi trips revealed that surcharges were applied inconsistently, with more than 70% concentrated in Manhattan during weekday business hours. This uneven distribution raised fairness concerns across zones and created operational ambiguity, as the underlying rules governing surcharge application were not clearly defined.
 
 Action
@@ -31,6 +31,17 @@ Delivered interpretable SHAP insights that clarified complex surcharge drivers, 
 Developed a reusable analytical framework that converts large-scale mobility data into actionable policy recommendations, laying the groundwork for broader smart city and urban mobility initiatives.
 
 
+<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" />
 
+
+Tech Stack
+To evaluate and improve NYC’s uniform congestion surcharge policy, this project designed and simulated an elastic fare system using large-scale data analysis and machine learning. Multiple modeling approaches—classification, regression, and clustering—were applied for different analytical objectives, with SHAP used to interpret model behavior. The analysis demonstrated that the proposed system could enhance both revenue performance and policy fairness.
+
+Python
+
+Data Engineering: pandas, numpy
+Modeling: scikit-learn (classification, regression, clustering)
+Model Interpretability (XAI): shap
+Visualization: matplotlib, seaborn
 
 
