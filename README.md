@@ -63,18 +63,18 @@ This allows analysts to test multiple urban mobility pricing strategies efficien
 
 ---
 
-📈 Results: 
+## 📈 Results: 
 
-💰 Revenue Growth
+1. Revenue Growth
 Optimized pricing increased total revenue by +0.9%.
 
-⚖️ Improved Policy Equity
+2. Improved Policy Equity
 Reduced surcharge concentration in the top 3 most affected zones by 22%, improving cost distribution across the city.
 
-🔎 Operational Transparency
+3. Operational Transparency
 SHAP insights clarified complex surcharge triggers, enabling better cross-functional decision making.
 
-🏙 Scalable Policy Tool
+4. Scalable Policy Tool
 Delivered a reusable analytical framework capable of turning mobility data into actionable urban policy insights, supporting future smart-city initiatives.
 
 ---
@@ -90,7 +90,7 @@ Delivered a reusable analytical framework capable of turning mobility data into 
 | Category | Tools |
 |----------|------|
 | Data Engineering | pandas, numpy |
-| Modeling | scikit-learn |
+| Modeling | scikit-learn (for Classification, Regression, Clustering)|
 | Explainable AI | SHAP |
 | Visualization | matplotlib, seaborn |
 
