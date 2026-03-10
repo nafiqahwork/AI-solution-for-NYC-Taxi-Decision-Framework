@@ -1,13 +1,13 @@
-##🚕 NYC Taxi Congestion Surcharge Optimization
+## 🚕 NYC Taxi Congestion Surcharge Optimization
 
 ---
 
-📌 Project Overview
+##📌 Project Overview
 To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression, and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
 
 ---
 
-🔍 Problem
+##🔍 Problem
 Exploratory analysis of 3M+ taxi trips revealed that congestion surcharges were applied inconsistently. 
 - 70%+ of surcharges were concentrated in Manhattan
 - Mostly occurred during weekday business hours
@@ -17,7 +17,7 @@ This indicated that the de-facto surcharge system differed from the intended pol
 
 ---
 
-⚙️ Methodology
+##⚙️ Methodology
 
 1️⃣ Data-Driven Policy Analysis
 - Built classification models (Logistic Regression, Random Forest) to identify surcharge triggers.
@@ -76,6 +76,8 @@ SHAP insights clarified complex surcharge triggers, enabling better cross-functi
 
 🏙 Scalable Policy Tool
 Delivered a reusable analytical framework capable of turning mobility data into actionable urban policy insights, supporting future smart-city initiatives.
+
+---
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" width="600"> </p>
 
