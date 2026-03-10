@@ -1,47 +1,89 @@
-Problem
-- Exploratory analysis of over 3M taxi trips revealed that surcharges were applied inconsistently, with more than 70% concentrated in Manhattan during weekday business hours. This uneven distribution raised fairness concerns across zones and created operational ambiguity, as the underlying rules governing surcharge application were not clearly defined.
+🚕 NYC Taxi Congestion Surcharge Optimization
 
-Action
-1. Driven Policy Analysis:
-Developed classification models (Logistic Regression and Random Forest) to identify surcharge triggers across 3M+ trips, achieving ROC-AUC of 0.91. Applied SHAP analysis to interpret model outputs and uncover implicit policy patterns, confirming that pickup time and location were the dominant drivers.
+📌 Project Overview
+To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression, and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
 
-2. Revenue & Equity Modeling:
-Built Ridge Regression models to estimate the financial and distributional impact of surcharge policies, establishing a quantitative foundation for evaluating policy alternatives.
+🔍 Problem
+Exploratory analysis of 3M+ taxi trips revealed that congestion surcharges were applied inconsistently. 
+- 70%+ of surcharges were concentrated in Manhattan
+- Mostly occurred during weekday business hours
+- Created fairness concerns across taxi zones
+- Generated operational ambiguity, as the actual surcharge triggers were unclear
+This indicated that the de-facto surcharge system differed from the intended policy rules.
 
-3. Strategic Scenario Simulation:
-Designed and executed simulations for alternative surcharge policies (e.g., peak-hour or zone-based adjustments), comparing outcomes across revenue generation and equity metrics to identify more balanced strategies.
+⚙️ Methodology
 
-4. Reusable Framework Development:
-Engineered a modular Python framework to support urban mobility policy experimentation, including components for policy definition, impact simulation, and evaluation of revenue and equity outcomes, enabling rapid testing of different policy scenarios.
+1️⃣ Data-Driven Policy Analysis
+- Built classification models (Logistic Regression, Random Forest) to identify surcharge triggers.
+- Trained on 3M+ taxi trip records.
+- Achieved ROC-AUC: 0.91.
+- Applied SHAP for explainability.
 
-<img width="858" height="952" alt="image" src="https://github.com/user-attachments/assets/d32d0e31-fcde-44bb-8767-2700cf018479" />
+🔎 Key Insight:
+Pickup time and location were the strongest drivers of surcharge application.
+
+2️⃣ Revenue & Equity Modeling
+- Implemented Ridge Regression models to estimate:
+  - Revenue impact
+  - Distributional fairness
+- Provided a quantitative baseline for evaluating policy alternatives.
+
+3️⃣ Strategic Scenario Simulation
+- Designed simulations to test alternative policies:
+  - Peak-hour pricing adjustments
+  - Zone-based exceptions
+  - Hybrid congestion strategies
+
+- Each scenario was evaluated using:
+  - Revenue performance
+  - Equity distribution across zones
+
+4️⃣ Reusable Policy Simulation Framework
+- Developed a modular Python framework enabling rapid policy experimentation.
+
+- Framework modules:
+  - Policy definition
+  - Impact simulation
+  - Revenue evaluation
+  - Equity analysis
+
+This allows analysts to test multiple urban mobility pricing strategies efficiently.
+
+📊 Analysis Visualization
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/d32d0e31-fcde-44bb-8767-2700cf018479" width="700"> </p>
+
+📈 Results: 
+
+💰 Revenue Growth
+Optimized pricing increased total revenue by +0.9%.
+
+⚖️ Improved Policy Equity
+Reduced surcharge concentration in the top 3 most affected zones by 22%, improving cost distribution across the city.
+
+🔎 Operational Transparency
+SHAP insights clarified complex surcharge triggers, enabling better cross-functional decision making.
+
+🏙 Scalable Policy Tool
+Delivered a reusable analytical framework capable of turning mobility data into actionable urban policy insights, supporting future smart-city initiatives.
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" width="600"> </p>
 
 
-Results
-1. Revenue Growth:
-Generated a +0.9% increase in total revenue through optimized, data-driven time and zone-based pricing strategies.
+🛠 Tech Stack
 
-2. Improved Policy Equity:
-Reduced surcharge concentration in the three most affected zones by 22%, promoting a more balanced distribution of costs across the city.
-
-3. Operational Transparency:
-Delivered interpretable SHAP insights that clarified complex surcharge drivers, supporting more informed cross-functional policy and operational decisions.
-
-4. Scalable Strategic Framework:
-Developed a reusable analytical framework that converts large-scale mobility data into actionable policy recommendations, laying the groundwork for broader smart city and urban mobility initiatives.
+🐍 Python
+Category	Tools
+Data Engineering	pandas, numpy
+Modeling	scikit-learn
+Explainable AI	SHAP
+Visualization	matplotlib, seaborn
 
 
-<img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" />
-
-
-Tech Stack
-To evaluate and improve NYC’s uniform congestion surcharge policy, this project designed and simulated an elastic fare system using large-scale data analysis and machine learning. Multiple modeling approaches—classification, regression, and clustering—were applied for different analytical objectives, with SHAP used to interpret model behavior. The analysis demonstrated that the proposed system could enhance both revenue performance and policy fairness.
-
-Python
-
-Data Engineering: pandas, numpy
-Modeling: scikit-learn (classification, regression, clustering)
-Model Interpretability (XAI): shap
-Visualization: matplotlib, seaborn
-
-
+🚀 Key Skills Demonstrated
+Machine Learning Modeling
+Explainable AI (XAI)
+Policy Simulation
+Urban Mobility Analytics
+Large Scale Data Analysis
+Revenue Optimization
