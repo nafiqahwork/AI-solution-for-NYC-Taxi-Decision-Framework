@@ -1,7 +1,11 @@
-🚕 NYC Taxi Congestion Surcharge Optimization
+##🚕 NYC Taxi Congestion Surcharge Optimization
+
+---
 
 📌 Project Overview
 To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression, and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
+
+---
 
 🔍 Problem
 Exploratory analysis of 3M+ taxi trips revealed that congestion surcharges were applied inconsistently. 
@@ -10,6 +14,8 @@ Exploratory analysis of 3M+ taxi trips revealed that congestion surcharges were 
 - Created fairness concerns across taxi zones
 - Generated operational ambiguity, as the actual surcharge triggers were unclear
 This indicated that the de-facto surcharge system differed from the intended policy rules.
+
+---
 
 ⚙️ Methodology
 
@@ -49,9 +55,13 @@ Pickup time and location were the strongest drivers of surcharge application.
 
 This allows analysts to test multiple urban mobility pricing strategies efficiently.
 
+---
+
 📊 Analysis Visualization
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/d32d0e31-fcde-44bb-8767-2700cf018479" width="700"> </p>
+
+---
 
 📈 Results: 
 
@@ -69,21 +79,26 @@ Delivered a reusable analytical framework capable of turning mobility data into 
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/2ff2e6d6-437d-4707-80e2-27de2bec5867" width="600"> </p>
 
+---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-🐍 Python
-Category	Tools
-Data Engineering	pandas, numpy
-Modeling	scikit-learn
-Explainable AI	SHAP
-Visualization	matplotlib, seaborn
+### 🐍 Python
 
+| Category | Tools |
+|----------|------|
+| Data Engineering | pandas, numpy |
+| Modeling | scikit-learn |
+| Explainable AI | SHAP |
+| Visualization | matplotlib, seaborn |
 
-🚀 Key Skills Demonstrated
-Machine Learning Modeling
-Explainable AI (XAI)
-Policy Simulation
-Urban Mobility Analytics
-Large Scale Data Analysis
-Revenue Optimization
+---
+
+## 🚀 Key Skills Demonstrated
+
+- Machine Learning Modeling
+- Explainable AI (XAI)
+- Policy Simulation
+- Urban Mobility Analytics
+- Large Scale Data Analysis
+- Revenue Optimization
