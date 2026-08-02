@@ -3,7 +3,7 @@
 ---
 
 ## Project Overview
-To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression, and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
+To evaluate and improve NYC’s uniform congestion surcharge policy, this project designs and simulates an elastic fare system using large-scale data analysis and machine learning. By applying multiple modeling approaches—classification, regression and clustering—and interpreting results with SHAP, the project demonstrates how a redesigned pricing structure can improve both profitability and policy fairness.
 
 ---
 
